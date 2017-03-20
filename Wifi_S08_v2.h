@@ -9,7 +9,6 @@
 
 #ifndef Wifi_S08_v2_H
 #define Wifi_S08_v2_H
-#endif
 
 #define ESP_VERSION "2.1"
 #define wifiSerial Serial1
@@ -281,3 +280,5 @@ class ESP8266 {
     volatile unsigned long timeoutStart;
     volatile char inputBuffer[BUFFERSIZE];  // Serial input loaded here
 };
+
+#endif
